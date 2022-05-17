@@ -1,0 +1,16 @@
+[
+    {
+        "type": "yo",
+        "message": {
+            "latitude": 50.123,
+            "longitude": 10.1010
+        }
+    },
+    {
+        "type": "garlic",
+        "message": {
+            "pokemon_id": 0,
+            "team_id": 3
+        }
+    }
+]

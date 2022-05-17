@@ -1,0 +1,135 @@
+[
+    {
+        "type": "raid",
+        "message": {
+            "latitude": 52.4736,
+            "longitude": 13.4032,
+            "level": 3,
+            "pokemon_id": 282,
+            "team_id": 3,
+            "cp": 21910,
+            "start": 1613491496,
+            "end": 1613494196,
+            "name": "unknown",
+            "evolution": 0,
+            "move_1": 320,
+            "move_2": 108,
+            "gym_id": "23ec10cd2920aaa8e767898d0b4e44c3.16",
+            "url": "http://lh3.googleusercontent.com/xyz",
+            "form": 298,
+            "is_ex_raid_eligible": false,
+            "is_exclusive": false,
+            "gender": 1,
+            "costume": 0
+        }
+    },
+    {
+        "type": "raid",
+        "message": {
+            "latitude": 52.4989,
+            "longitude": 13.474,
+            "level": 3,
+            "pokemon_id": 0,
+            "team_id": 3,
+            "cp": 0,
+            "start": 1613495462,
+            "end": 1613498162,
+            "name": "unknown",
+            "evolution": 0,
+            "move_1": 1,
+            "move_2": 2,
+            "gym_id": "d35a02eb49149450fb2fffc6e467eb37.16",
+            "url": "http://lh3.googleusercontent.com/xyz",
+            "is_ex_raid_eligible": false,
+            "is_exclusive": false
+        }
+    },
+    {
+        "type": "weather",
+        "message": {
+            "s2_cell_id": "5118835684653216542",
+            "condition": 4,
+            "alert_severity": 0,
+            "day": 2,
+            "time_changed": 1613492380,
+            "latitude": 52.4989257703959698,
+            "longitude": 13.47406201946032334,
+            "coords": []
+        }
+    },
+    {
+        "type": "gym",
+        "message": {
+            "gym_id": "ad009a3affaed08c1b6b91b1a5696ef4.16",
+            "latitude": 52.5016,
+            "longitude": 13.4457,
+            "team_id": 3,
+            "name": "unknown",
+            "slots_available": 0,
+            "url": "http://lh3.googleusercontent.com/xyz",
+            "is_ex_raid_eligible": 0
+        }
+    },
+    {
+        "type": "pokestop",
+        "message": {
+            "name": "foo bar",
+            "pokestop_id": "ef27d3a22d760fd5741e166503d46854.16",
+            "latitude": 52.5032,
+            "longitude": 13.4419,
+            "updated": 1613492380,
+            "last_modified": 1613491988,
+            "url": "http://lh3.googleusercontent.com/xyz",
+            "incident_start": 1613491985,
+            "incident_expiration": 1613493785,
+            "incident_grunt_type": 37
+        }
+    },
+    {
+        "type": "pokemon",
+        "message": {
+            "encounter_id": 877085851519025965,
+            "pokemon_id": 595,
+            "spawnpoint_id": 4168534233495,
+            "latitude": 52.49923225612,
+            "longitude": 13.4133235166,
+            "disappear_time": 1613493017,
+            "verified": true,
+            "costume": 0,
+            "gender": 2,
+            "rarity": 3
+        }
+    },
+    {
+        "type": "pokemon",
+        "message": {
+            "encounter_id": 3052065501864667963,
+            "pokemon_id": 35,
+            "spawnpoint_id": 4881398565875,
+            "latitude": 52.4989129657623,
+            "longitude": 13.41255209865,
+            "disappear_time": 1613495181,
+            "verified": true,
+            "costume": 0,
+            "gender": 1,
+            "rarity": 1,
+            "boosted_weather": 4
+        }
+    },
+    {
+        "type": "pokemon",
+        "message": {
+            "encounter_id": 331367841006953840,
+            "pokemon_id": 568,
+            "spawnpoint_id": 4816987533499,
+            "latitude": 52.4988823685468,
+            "longitude": 13.41115375695656,
+            "disappear_time": 1613494051,
+            "verified": true,
+            "costume": 0,
+            "gender": 2,
+            "rarity": 1,
+            "boosted_weather": 4
+        }
+    }
+]

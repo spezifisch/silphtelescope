@@ -1,0 +1,6 @@
+Homeserver: "https://matrix.example.com"
+user_id: "@foo:matrix.example.com"
+access_token: secret
+GeoDexBasePath: "/geodex"
+Tile38Hostname: "tile38:9851"
+

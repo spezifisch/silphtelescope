@@ -1,0 +1,47 @@
+version: "3.2"
+
+services:
+    app:
+        build:
+            context: .
+        volumes:
+            - type: bind
+              source: ./config.yaml
+              target: /app/config.yaml
+              read_only: true
+            - type: volume
+              source: db
+              target: /data
+            - type: volume
+              source: geodex
+              target: /data/geodex
+        networks:
+            default:
+            mad_backend:
+              aliases:
+                  - silphtelescope
+            mad_db:
+        restart: on-failure
+        environment:
+            TZ: "Europe/Berlin"
+        depends_on:
+            - tile38
+    tile38:
+        image: tile38/tile38
+        volumes:
+            - tdb:/data
+        networks:
+            - default
+
+networks:
+    default:
+    mad_backend:
+        external: true
+    mad_db:
+        external: true
+
+volumes:
+    db:
+    geodex:
+    tdb:
+

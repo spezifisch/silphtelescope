@@ -1,0 +1,89 @@
+{
+    "2/0331232132": {
+        "ts": 0,
+        "stops": [
+            {
+                "s2l20": "2/03312321320023212200",
+                "name": "Wegkreuz Halen",
+                "id": "Pqbl9ay",
+                "portal": true,
+                "gym": false,
+                "stop": false,
+                "ts": 1531145896214,
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.161987,
+                        52.863968
+                    ]
+                },
+                "added": true
+            }
+        ],
+        "addedGyms": true,
+        "addedPortals": true
+    },
+    "2/0331232132gargle": {
+        "ts": 0,
+        "stops": [
+            {
+                "s2l20": "2/03312321320023212212",
+                "name": "Haler Heide",
+                "id": "Pqpd9i1",
+                "portal": true,
+                "gym": false,
+                "stop": false,
+                "ts": 1531145896213,
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.162362,
+                        52.863848
+                    ]
+                },
+                "added": true
+            },
+            {
+                "s2l20": "2/03312321320030220331",
+                "name": "Schūtzenhaus St. Georg Halen",
+                "id": "Pn7p8hq",
+                "portal": false,
+                "gym": false,
+                "stop": true,
+                "ts": 1531145896174,
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.158991,
+                        52.857914
+                    ]
+                }
+            },
+            {
+                "s2l20": "2/03312321320100022303",
+                "name": "Kopfloser Bewacher",
+                "id": "Pns07nf",
+                "portal": false,
+                "gym": true,
+                "stop": false,
+                "ts": 1531145896152,
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.149065,
+                        52.85475
+                    ]
+                },
+                "added": true
+            }
+        ],
+        "addedGyms": true,
+        "addedPortals": true
+    },
+    "2/0331232132yak": {
+        "ts": 0,
+        "stops": [],
+        "addedGyms": true,
+        "addedPortals": true
+    }
+}
